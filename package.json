@@ -1,0 +1,26 @@
+{
+  "name": "week2-posts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "mongoose": "^6.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justin3737/week2-nodejs-posts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justin3737/week2-nodejs-posts/issues"
+  },
+  "homepage": "https://github.com/justin3737/week2-nodejs-posts#readme"
+}
