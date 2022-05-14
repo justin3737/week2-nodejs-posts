@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "9976a319-4f79-4458-8142-4c9d1e43832a",
+		"name": "week2posts - heroku",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "取得所有文章",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://week2-posts.herokuapp.com/posts",
+					"protocol": "https",
+					"host": [
+						"week2-posts",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "新增文章",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n \"name\": \"Justin\",\n \"tags\": \"schools\",\n \"type\": \"group\",\n \"content\": \"123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://week4metawall.herokuapp.com/posts",
+					"protocol": "https",
+					"host": [
+						"week4metawall",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
