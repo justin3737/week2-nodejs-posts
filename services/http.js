@@ -1,4 +1,4 @@
-const headers = require('../services/headers');
+const headers = require('./headers');
 
 const http = {
   cors() {
