@@ -1,4 +1,4 @@
-const HttpController = require('../Services/http')
+const HttpController = require('../services/http')
 const PostsController = require('../controllers/posts')
 
 const routes = async (req, res) => {
